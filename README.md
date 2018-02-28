@@ -114,7 +114,7 @@ DB name : SocialAppDB.sql
 
 # Database Schema Diagram :  
 
-![Alt text](https://github.com/pratikdhage003/CustomSocialMediaApp/blob/master/Schema-Diagram-SocialApp.jpg "CustomSocialMediaApp-Schema Diagram")  
+<img src="/blob/master/Schema-Diagram-SocialApp.jpg" width="100" height="50">
 
 ![](/blob/master/Schema-Diagram-SocialApp.jpg )
 
