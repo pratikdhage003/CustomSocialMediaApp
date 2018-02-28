@@ -114,7 +114,7 @@ DB name : SocialAppDB.sql
 
 # Database Schema Diagram :  
 
-![Alt text](/Schema-Diagram-SocialApp.jpg?raw=true "CustomSocialMediaApp-Schema Diagram")  
+![ScreenShot](/Schema-Diagram-SocialApp.jpg?raw=true "CustomSocialMediaApp-Schema Diagram")  
 
 
 
