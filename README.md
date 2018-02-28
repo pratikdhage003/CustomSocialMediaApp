@@ -19,7 +19,7 @@ contextPath = http://localhost:8080/CustomSocialMediaApp/API/
 Retrieves list of messages or 
 newsfeed posted by userId = 1 and its followees or people it is following.
 
-Method	URL	Action: __
+Method	URL	Action:  
 GET	
 contextPath + /app/v1.1/messages/users/1?messageContains=Renovat
 
