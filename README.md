@@ -13,31 +13,32 @@ http://localhost:8080/CustomSocialMediaApp/API/app/v1.1/followers/users/2
 
 contextPath = http://localhost:8080/CustomSocialMediaApp/API/
 
+# Following are the controller methods with their mappings for each functionality:
 
 #1) public List<Message> findAllMessegesOfUserWithFolloweesByUserId
 	
-Retrieves list of messages or 
-newsfeed posted by userId = 1 and its followees or people it is following.
+Retrieves list of messages or newsfeed posted by userId = 1 and its followees or people it is following.
 
-Method	URL	Action:  
-GET	
+Method	URL	Action:  GET  	
+
 contextPath + /app/v1.1/messages/users/1?messageContains=Renovat
 
 
 
 #2) public List<User> findAllFollowersByUserId	
+
 Retrieves list of followers of userId =2
 
-Method	URL	Action:  
-GET	
+Method	URL	Action:  GET  	
+
 contextPath + /app/v1.1/followers/users/2
 
 
 #3) public List<User> findAllFolloweesByUserId	
 Retrieves list of people, to whom userId =2 is following
 
-Method	URL	Action:  
-GET	
+Method	URL	Action:  GET  	
+
 contextPath + /app/v1.1/followees/users/2
 
 
@@ -45,16 +46,16 @@ contextPath + /app/v1.1/followees/users/2
 #4) public void unfollowAnotherPerson	
 userId = 4 unfollows another user whose followId = 1
 
-Method URL Action:  
-GET	
+Method URL Action:  GET  	
+
 contextPath + /app/v1.1/users/unfollow?userId=4&followeeId=1
 
 
 #5) public void followAnotherPerson	
 userId = 4 starts following another user whose followId = 1
 
-Method	URL	Action:  
-GET	
+Method	URL	Action:  GET  	
+
 contextPath + /app/v1.1/users/follow?userId=4&followeeId=1
 
 
@@ -63,8 +64,8 @@ contextPath + /app/v1.1/users/follow?userId=4&followeeId=1
 	
 Find the minimum distance between userId = 3 and another user whose id = 6
 
-Method	URL	Action
-GET	
+Method	URL	Action:  GET  	
+
 contextPath + /app/v1.1/users/shortestdistance?sourceId=3&destinationId=6
 
 
