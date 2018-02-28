@@ -115,8 +115,6 @@ DB name : SocialAppDB.sql
 
 # Database Schema Diagram : SocialAppDB
 
-<img width="1280" alt="screen shot 2018-02-28 at 2 06 29 am" src="https://user-images.githubusercontent.com/30219858/36781883-0ccabe06-1c2c-11e8-8df4-823585d04a08.png">
+<img width="1280" alt="schema_diagram_customsocialmediaapp" src="https://user-images.githubusercontent.com/30219858/36782876-36b44630-1c2f-11e8-9fcf-f0ecb39202ac.png">
 
-
- 
 
