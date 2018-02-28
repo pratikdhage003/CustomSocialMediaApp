@@ -33,48 +33,43 @@ GET
 contextPath + /app/v1.1/followers/users/2
 
 
-3) public List<User> findAllFolloweesByUserId	
+#3) public List<User> findAllFolloweesByUserId	
 Retrieves list of people, to whom userId =2 is following
 
 Method	URL	Action
 GET	
 contextPath + /app/v1.1/followees/users/2
 
-Method Name:
 
 
+#4) public void unfollowAnotherPerson	
+userId = 4 unfollows another user whose followId = 1
 
-4)
+Method	URL	Action
 GET	
 contextPath + /app/v1.1/users/unfollow?userId=4&followeeId=1
 
-Method Name:
 
-public void unfollowAnotherPerson	
-userId = 4 unfollows another user whose followId = 1
+#5) public void followAnotherPerson	
+userId = 4 starts following another user whose followId = 1
 
-5)
+Method	URL	Action
 GET	
 contextPath + /app/v1.1/users/follow?userId=4&followeeId=1
 
-Method Name:
 
-public void followAnotherPerson
-	
-userId = 4 starts following another user whose followId = 1
 
-6)
-GET	
-contextPath + /app/v1.1/users/shortestdistance?sourceId=3&destinationId=6
 
-Method Name:
-
-public int findShortestDistanceBetweenUsers
+#6) public int findShortestDistanceBetweenUsers
 	
 Find the minimum distance between userId = 3 and another user whose id = 6
 
-Graph for 3 :
+Method	URL	Action
+GET	
+contextPath + /app/v1.1/users/shortestdistance?sourceId=3&destinationId=6
 
+
+Graph for followees of userID =3 :
 
 1 -> 4 -> 2
 
@@ -88,6 +83,7 @@ Graph for 3 :
 
 6
 
+
 So shortest path is via:
 
 3 ->  1 -> 4 -> 5 -> 6
@@ -99,7 +95,7 @@ As we covered 4 hops:
 Hence shortest path distance = 4
 
 
-For building an eclipse web project :
+# For building an eclipse web project :
 
 Do run this command in folder where CustomSocialWebApp is placed.
 
@@ -107,13 +103,14 @@ PMP:CustomSocialWebApp pratikdhage$ mvn eclipse:eclipse -Dwtpversion=2.0
 
 
 
-DB Type : SQLite
+#DB Type : SQLite 
+
+need browser like :  SQLite DB Browser to view tables
 
 DB name : SocialAppDB.sql
 
 
-
-Database Schema Diagram :
+#Database Schema Diagram :
 
 
 
