@@ -114,9 +114,7 @@ DB name : SocialAppDB.sql
 
 # Database Schema Diagram :  
 
-<img src="/Schema-Diagram-SocialApp.png" width="100" height="100">
-
-![](/Schema-Diagram-SocialApp.png )
+<img width="1280" alt="screen shot 2018-02-28 at 2 06 29 am" src="https://user-images.githubusercontent.com/30219858/36781883-0ccabe06-1c2c-11e8-8df4-823585d04a08.png">
 
 
  
