@@ -30,7 +30,7 @@ Retrieves list of messages or newsfeed posted by userId = 1 and its followees or
 Method	URL	Action:  GET  	
 
 *contextPath + /app/v1.1/messages/users/1?messageContains=Renovat*  
-  
+ <br>
 
 
 **2)  public List<User> findAllFollowersByUserId**  	
