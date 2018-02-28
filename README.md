@@ -1,8 +1,17 @@
 # CustomSocialMediaApp
 
-Falling on the same line of Twitter, LinkedIn functionalities
+**Maven based Java MVC Web Project containing REST APIs for functionalities drawing few similarities with LinkedIn; SQLite is used as a backend database which is attached with the project itself**   
 
-# How to run: 
+# How to deploy  
+
+For building an eclipse web project :  
+
+Do run this command in a folder where CustomSocialWebApp is placed.
+
+[cutompath]$ mvn eclipse:eclipse -Dwtpversion=2.0  
+
+
+# How to run: Use a tool like POSTMAN or run in a browser to capture JSON based response
 
 For example:
 
@@ -11,9 +20,9 @@ http://localhost:8080/CustomSocialMediaApp/API/app/v1.1/messages/users/1?message
 
 http://localhost:8080/CustomSocialMediaApp/API/app/v1.1/followers/users/2
 
-contextPath = http://localhost:8080/CustomSocialMediaApp/API/
+*contextPath = http://localhost:8080/CustomSocialMediaApp/API/*
 
-# Following are the (SocailAppController) controller methods with their mappings for each functionality:  
+# Following are the (SocialAppController.java) controller methods with their mappings for each individual functionality:  
 
 **1)  public List<Message> findAllMessegesOfUserWithFolloweesByUserId**  
 	
@@ -96,13 +105,6 @@ Each directly connected edge is 1 hop !
 
 **As we covered 4 hops:  Hence shortest path distance = 4** 
   
-
-# For building an eclipse web project :  
-
-Do run this command in folder where CustomSocialWebApp is placed.
-
-PMP:CustomSocialWebApp pratikdhage$ mvn eclipse:eclipse -Dwtpversion=2.0  
-
 
 
 # DB Type : SQLite   
