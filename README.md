@@ -1,6 +1,6 @@
 # CustomSocialMediaApp
 
-**Maven based Java MVC Web Project containing REST APIs for functionalities drawing few similarities with LinkedIn; SQLite is used as a backend database which is attached with the project itself**   
+**Maven based Java MVC Web Project containing REST APIs for functionalities drawing few similarities with LinkedIn and Twitter; SQLite is used as a backend database which is attached with the project itself**   
 
 # How to deploy  
 
@@ -13,8 +13,7 @@ Do run this command in a folder where CustomSocialWebApp is placed.
 
 # How to run: Use a tool like POSTMAN or run in a browser to capture JSON based response
 
-For example:
-
+For example:  
 
 http://localhost:8080/CustomSocialMediaApp/API/app/v1.1/messages/users/1?messageContains=Renovat
 
