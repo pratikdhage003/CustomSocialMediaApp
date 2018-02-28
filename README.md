@@ -1,4 +1,4 @@
-# CustomMediaApp
+# CustomSocialMediaApp
 
 Falling on the same line of Twitter, LinkedIn functionalities
 
@@ -12,38 +12,41 @@ http://localhost:8080/CustomSocialMediaApp/API/app/v1.1/messages/users/1?message
 http://localhost:8080/CustomSocialMediaApp/API/app/v1.1/followers/users/2
 
 
-1) 
-Method	URL	Action
-GET	/API/app/v1.1/messages/users/1?messageContains=Renovat
+contextPath = http://localhost:8080/CustomSocialMediaApp/API/
 
-Method Name:
-public List<Message> findAllMessegesOfUserWithFolloweesByUserId
+#1) public List<Message> findAllMessegesOfUserWithFolloweesByUserId
 	
 Retrieves list of messages or 
 newsfeed posted by userId = 1 and its followees or people it is following.
 
-2)
+Method	URL	Action
 GET	
-/API/app/v1.1/followers/users/2
+contextPath + /app/v1.1/messages/users/1?messageContains=Renovat
 
 
-Method Name:
 
-public List<User> findAllFollowersByUserId	
+#2) public List<User> findAllFollowersByUserId	
 Retrieves list of followers of userId =2
 
-3)
+Method	URL	Action
 GET	
-/API/app/v1.1/followees/users/2
+contextPath + /app/v1.1/followers/users/2
+
+
+3) public List<User> findAllFolloweesByUserId	
+Retrieves list of people, to whom userId =2 is following
+
+Method	URL	Action
+GET	
+contextPath + /app/v1.1/followees/users/2
 
 Method Name:
 
-public List<User> findAllFolloweesByUserId	
-Retrieves list of people, to whom userId =2 is following
+
 
 4)
 GET	
-/API/app/v1.1/users/unfollow?userId=4&followeeId=1
+contextPath + /app/v1.1/users/unfollow?userId=4&followeeId=1
 
 Method Name:
 
@@ -52,7 +55,7 @@ userId = 4 unfollows another user whose followId = 1
 
 5)
 GET	
-/API/app/v1.1/users/follow?userId=4&followeeId=1
+contextPath + /app/v1.1/users/follow?userId=4&followeeId=1
 
 Method Name:
 
@@ -62,7 +65,7 @@ userId = 4 starts following another user whose followId = 1
 
 6)
 GET	
-/API/app/v1.1/users/shortestdistance?sourceId=3&destinationId=6
+contextPath + /app/v1.1/users/shortestdistance?sourceId=3&destinationId=6
 
 Method Name:
 
@@ -115,4 +118,4 @@ Database Schema Diagram :
 
 
  
-# CustomSocialMediaApp
+
