@@ -94,7 +94,7 @@ So shortest path is via:
 
 Each directly connected edge is 1 hop !
 
-*As we covered 4 hops:  Hence shortest path distance = 4*  
+** *As we covered 4 hops:  Hence shortest path distance = 4* **  
   
 
 # For building an eclipse web project :  
