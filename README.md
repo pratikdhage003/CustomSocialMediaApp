@@ -15,7 +15,7 @@ contextPath = http://localhost:8080/CustomSocialMediaApp/API/
 
 # Following are the controller methods with their mappings for each functionality:  
 
-#1)  public List<Message> findAllMessegesOfUserWithFolloweesByUserId  
+**1)  public List<Message> findAllMessegesOfUserWithFolloweesByUserId**  
 	
 Retrieves list of messages or newsfeed posted by userId = 1 and its followees or people it is following.
 
