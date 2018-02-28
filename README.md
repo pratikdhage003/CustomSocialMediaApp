@@ -112,7 +112,9 @@ need browser like :  SQLite DB Browser to view tables
 DB name : SocialAppDB.sql  
 
 
-#Database Schema Diagram :  
+# Database Schema Diagram :  
+
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")  
 
 
 
