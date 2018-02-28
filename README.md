@@ -13,7 +13,7 @@ http://localhost:8080/CustomSocialMediaApp/API/app/v1.1/followers/users/2
 
 contextPath = http://localhost:8080/CustomSocialMediaApp/API/
 
-# Following are the controller methods with their mappings for each functionality:
+# Following are the controller methods with their mappings for each functionality:  
 
 #1) public List<Message> findAllMessegesOfUserWithFolloweesByUserId
 	
