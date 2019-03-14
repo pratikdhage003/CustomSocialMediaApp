@@ -81,7 +81,7 @@ Method	URL	Action:  GET
    
 
 
-Graph for followees of userID =3 :  
+Graph for followees for the userID =3 :  
 
 1 -> 4 -> 2
 
